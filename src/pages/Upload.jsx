@@ -14,9 +14,7 @@ export default function Upload() {
       const res = await uploadLog(file);
       setUnique_name(res.unique_name);
       setMessage(res.message);
-      if (res) {
-        await insertData(res.unique_name);
-      }
+      await insertData(res.unique_name);
     } catch (err) {
       console.error(err);
       setMessage("Upload failed");

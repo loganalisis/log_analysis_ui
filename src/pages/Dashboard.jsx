@@ -23,7 +23,7 @@ export default function Dashboard({ unique_name }) {
 
   useEffect(() => {
     fetchDashboardData();
-  }, []);
+  }, [unique_name]);
 
   async function fetchDashboardData() {
     setTimeout(async () => {
