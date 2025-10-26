@@ -67,6 +67,12 @@ export default function Upload() {
                     "Upload Log"
                   )}
                 </button>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1q8HNma-xRv41oSLHtuxVlbNpUFu46Jd7"
+                  class="text-indigo-500 ml-4"
+                >
+                  Download sample log file
+                </a>
               </div>
             </div>
           </div>
