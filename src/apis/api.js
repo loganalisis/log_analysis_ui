@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const GATEWAY_URL = "http://127.0.0.1:8080/gateway";
 const GATEWAY_URL =
-  "http://log-processor-gateway-v3-shubham-roy021-dev.apps.rm3.7wse.p1.openshiftapps.com/gateway";
+  "https://log-processor-gateway-v3-shubham-roy021-dev.apps.rm3.7wse.p1.openshiftapps.com/gateway";
 
 // const log_processor_url = "http://127.0.0.1:8000";
 // const analytices_service_url = "http://127.0.0.1:8081";
